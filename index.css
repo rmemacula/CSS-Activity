@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+   background-color: black;
+   background-size: 100vw 100vh;
+}
+.navMain,.navMenu,p,.elon,.koichi {
+    display: inline-block;
+  }
+.nav{
+        overflow: hidden;
+        background-color: #1498e4;
+        position: fixed; 
+        top: 0; 
+        width: 100%; 
+        padding-top: 5px;
+        padding-bottom: 5px;
+}
+.home
+{text-align: right;
+}
+* {
+    font-family: "Montserrat", sans-serif;
+    color:white;
+}
+.randomFacts {
+    border-style: dashed;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 600px;
+    margin-left: 600px;
+}
+#computerGames{
+    background-color: black;
+    color: transparent;
+    user-select: none;
+}
+#computerGames:hover{
+    background-color: inherit;
+    color: inherit;
+}
+
+.goTop{
+    text-align: center;
+}

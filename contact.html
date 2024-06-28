@@ -4,32 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="contact.css"
 </head>
 <body>
+    <div class="nav">
+        <div class="navMain">
+            <h1>Roen's HTML and CSS</h1>
+        </div>
+        <div class="navMenu">
+            <p class="home">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.html">HOME</a></p>
+            <p>|</p>
+            <p><a href="contact.html" target="_blank">CONTACT ME</a></p>
+            <p>|</p>
+            <p><a href="https://cataas.com/cat" target="_blank">CLICK FOR SURPRISE &#128570</a></p>
+        </div>
+    </div>
+    <div class="contactme">
+    <br><br><br><br><br>
     <h1>Contact Me</h1>
     <br>
         <label for="firstName">First Name:</label><br>
-        <input type="text" name="firstName" id="firstName" required><br>
+        <input type="text" name="firstName" id="firstName" class="firstName" required><br><br><br>
         <label for="lastName">Last Name:</label><br>
-        <input type="text" name="lastName" id="lastName" required><br>
+        <input type="text" name="lastName" id="lastName" class="lastName" required><br><br><br>
         <label for="message">Message:</label><br>
-        <textarea name="message" id="message" rows="4"></textarea> 
+        <textarea name="message" id="message" rows="4" class="message"></textarea> <br><br>
         <br>
         <label for="gender">Gender:</label>
-        <select name="gender" id="gender">
-            <option value="male">Male</option>
-            <option value="female">Female</option>
-            <option value="noGender">No Gender</option>
+        <select name="gender" id="gender"> 
+            <option value="male" id="gender">Male</option>
+            <option value="female" id="gender">Female</option>
+            <option value="noGender" id="gender">Others</option>
         </select>
         <h4>Which cat is cuter:</h4>
+        <div class="elon">
         <input type="radio" id="elon" name="cat" value="elon">
         <label for="elon">Elon</label>
-        <img src="elon.jpg" height="100px">
         <br>
+        <img src="elon.jpg" height="300px">
+         </div>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="koichi">
         <input type="radio" id="koichi" name="cat" value="koichi">
         <label for="koichi">Koichi</label>
-        <img src="koichi.jpg" height="100px">
         <br>
+        <img src="koichi.jpg" height="300px">
+        </div>
+        <br>
+        <button class="send">SEND</button>
+    </div>
+    <hr>
+    <div class="goTop">
+        <a href="#">BACK TO TOP</a>
+        </div>
     
 </body>
 </html>
